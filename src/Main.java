@@ -3,6 +3,8 @@ import java.util.Map;
 import java.util.Scanner;
 
 public class Main {
+
+
     public static void main(String[] args) {
 
 
@@ -12,6 +14,8 @@ public class Main {
      encryptions.put("Karin", "634 2341 2344");
      encryptions.put("Kevin", "324 5430 1222");
 
+
+     while (true){
       System.out.println(" Choose name for phone numbers");
 
       Scanner names = new Scanner(System.in);
@@ -27,5 +31,26 @@ public class Main {
           System.out.println(encryptions.get("Kevin"));
 
       }
+
+      newPerson();
     }
+
+
+
+
+
+ }
+
+
+    public static void newPerson(){
+
+        Scanner sc = new Scanner(System.in);
+        System.out.println("Add new name: ");
+        String names = sc.nextLine();
+        System.out.println("Add phone number: ");
+        String input = sc.nextLine();
+        System.out.println("Thanks! ");
 }
+}
+
+
