@@ -1,5 +1,6 @@
 import java.util.HashMap;
 import java.util.Map;
+import java.util.Scanner;
 
 public class Main {
     public static void main(String[] args) {
@@ -11,8 +12,10 @@ public class Main {
      encryptions.put("Karin", "634 2341 2344");
      encryptions.put("Kevin", "324 5430 1222");
 
-     
+      System.out.println(" Choose name for phone numbers");
 
+      Scanner names = new Scanner(System.in);
+      String input = names.nextLine();
 
 
     }
