@@ -17,6 +17,15 @@ public class Main {
       Scanner names = new Scanner(System.in);
       String input = names.nextLine();
 
+      if (input.equals("Greta")){
+          System.out.println(encryptions.get("Greta"));
+      }
+      else if (input.equals("Karin")){
+          System.out.println(encryptions.get("Karin"));
+      }
+      else if (input.equals("Kevin")){
+          System.out.println(encryptions.get("Kevin"));
 
+      }
     }
 }
